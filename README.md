@@ -37,7 +37,7 @@ var div = $('#drag-and-drop-area');
 
 var ff = <strong>new FlexFile({</strong>
   <strong>readAs:</strong> 'DataURL', // or 'BinaryString'
-  <strong>multiple:</strong> true, // true by default, set to `false` if multiple file selection isn't allowed
+  <strong>multiple:</strong> true, // `true` by default, set to `false` if multiple file selection isn't allowed
   <strong>abortListener:</strong> 'input[type="button"]',
   <strong>dropListener:</strong> '#drag-and-drop-area', // A file input and/or drag-n-drop selector is required.
   <strong>fileListener:</strong> 'input[type="file"]', // A file input and/or drag-n-drop selector is required.
