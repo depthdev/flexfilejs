@@ -16,7 +16,8 @@
 </ul>
 <br>
 <br>
-<p>Example use (with images):</p>
+<strong>Options &#38; Callbacks with Available Parameters:</strong>
+<p>Example use (w/ images):</p>
 <pre>
 // Global selectors for example
 var $ = function(s) {
@@ -36,11 +37,11 @@ var div = $('#drag-and-drop-area');
 // OR with other options:
 
 var ff = <strong>new FlexFile({</strong>
-  <strong>readAs:</strong> 'DataURL', // or 'BinaryString'
-  <strong>multiple:</strong> true, // `true` by default, set to `false` if multiple file selection isn't allowed
+  <strong>readAs:</strong> 'DataURL', // 'DataURL' by default, or set to 'BinaryString'
+  <strong>multiple:</strong> true, // `true` by default, or set to `false` if multiple file selection isn't allowed
   <strong>abortListener:</strong> 'input[type="button"]',
-  <strong>dropListener:</strong> '#drag-and-drop-area', // A file input and/or drag-n-drop selector is required.
-  <strong>fileListener:</strong> 'input[type="file"]', // A file input and/or drag-n-drop selector is required.
+  <strong>dropListener:</strong> '#drag-and-drop-area', // A file input and/or drag-n-drop selector is required
+  <strong>fileListener:</strong> 'input[type="file"]', // A file input and/or drag-n-drop selector is required
   <strong>abort:</strong> function() {
     uploadForm.className = 'active';
     console.log('Image preview aborted.');
