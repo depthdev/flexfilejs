@@ -6,7 +6,7 @@
 
 
 <br>
-<strong>FLEXFILE METHODS:</strong>
+<strong>METHODS:</strong>
 <ul>
   <li>getFile();</li>
   <li>getFiles();</li>
@@ -16,7 +16,7 @@
 </ul>
 <br>
 <br>
-<strong>Options &#38; Callbacks with Available Parameters:</strong>
+<strong>OPTIONS &#38; CALLBACKS (with available parameters):</strong>
 <p>Example use (w/ images):</p>
 <pre>
 // Global selectors for example
