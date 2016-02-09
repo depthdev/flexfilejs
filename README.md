@@ -1,7 +1,7 @@
 # FlexFileJS
 <h2>Flexible browser file uploader.</h2>
 
-<p>FlexFile v1.0.0<br>(c) 2015 Depth Development. http://depthdev.com<br>License: Apache 2.0</p>
+<p>FlexFile v1.0.0</p>
 <p><a href="http://codepen.io/depthdev/pen/GoOLGv" target="_blank">Demo</a></p>
 
 
