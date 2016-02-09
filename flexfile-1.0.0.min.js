@@ -1,6 +1,6 @@
 /*
  FlexFile v1.0.0
- (c) 2015 Depth Development. http://depthdev.com
+ (c) 2016 Depth Development. http://depthdev.com
  License: MIT
 */
 
